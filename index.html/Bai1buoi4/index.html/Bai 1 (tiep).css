@@ -1,0 +1,34 @@
+#menungang ul{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    height: 40px;
+    list-style-type: none;
+    max-height: fit-content;
+    text-align: center;
+}
+#menungang li{
+    display:inline-block;
+    width: 85px;
+    text-align: center;
+    line-height: 40px;
+    font-family: sans-serif;
+}
+#menungang ul li:hover{
+    background-color: black;
+}
+#menudoc ul{
+    background-color: rgb(230, 230, 230);
+    color: black;
+    width: 200px;
+    overflow: scroll;
+    height: 1000px;
+}
+#menudoc li{
+    display: block;
+    font-family: sans-serif;
+    line-height: 35px;;
+}
+#menudoc ul li:hover{
+    background-color: rgb(69, 133, 69);
+    color: white;
+}
